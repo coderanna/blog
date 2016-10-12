@@ -55,7 +55,7 @@ color: #000;
     text-align: center;
     background: url('http://foodtruckempire.com/wp-content/uploads/mia.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 855px;
+    height: 800px;
 }
 .bg-overlay {
   background:rgba(0,0,0, 0.3);
