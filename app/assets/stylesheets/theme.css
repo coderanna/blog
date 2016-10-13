@@ -141,10 +141,11 @@ hr.intro-divider {
 /*section 2*/
 .content-section-a {
     padding: 50px 0;
-    background: url('http://www.miamiandbeaches.com/~/media/Images/GMCVB/MiamiAndBeaches/Featured%20Articles/WheretoPartyArtBasel/Pearl-Miami-Beach-612x338.jpg') no-repeat center center fixed;
+    background: url('http://foodtruckempire.com/wp-content/uploads/mia.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }
+
 .bg-overlay2 {
   margin-top: -50px;
   background: rgba(255, 255, 255, 0.2);
