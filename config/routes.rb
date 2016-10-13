@@ -10,5 +10,8 @@ get 'articles' => 'articles#index'
 
 get 'articles/new' => 'articles#new'
 
+get 'signup' => 'users#new'
+resources :users, except: [:new] #or you can use this too: post 'users' => 'users#create'
+
 resources :articles
 end 
