@@ -27,6 +27,11 @@ class UsersController < ApplicationController
         end
     end
     
+    def show
+        @user = User.find(params[:id])
+    end
+    
+    
     # we need to whitelist what we are accepting so we need a private method
     private
         def user_params
