@@ -40,11 +40,11 @@ class UsersController < ApplicationController
     
     # we need to whitelist what we are accepting so we need a private method
     private
-        def user_params
-            params.require(:user).permit(:username, :email, :password)
-        end
-        
-        def set_user
-             @user = User.find(params[:id])
-        end
+    def user_params
+        params.require(:user).permit(:username, :email, :password)
+    end
+    
+    def set_user
+         @user = User.find(params[:id])
+    end
 end
