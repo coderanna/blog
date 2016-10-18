@@ -23,7 +23,7 @@ class UsersController < ApplicationController
       
     end
     
-    def update
+    def update #the edit form submission is handled by update action
         
         if @user.update(user_params)
             flash[:success] = "Your account was updated successfully"

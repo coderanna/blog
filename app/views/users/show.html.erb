@@ -1,8 +1,10 @@
 <h1 align="center">Welcome to <%= @user.username %>'s Page!</h1>
 
-    <div align="center" class= "col-xs-4 col-xs-offset-4 btn btn-primary btn-sm">
-        <%= link_to 'Edit Your Profile', edit_user_path(current_user) %>
-    </div>
+<!--what is wrong with this. i want it to display only if user is logged in-->
+<% if logged_in? && current_user == @user %>
+    
+    <div align="center"><%= link_to "Edit your profile", edit_user_path(current_user), class: "btn btn-xs btn-primary" %></div>
+<% end %>
 
 <div class="row">
     <div class="col-md-4 col-md-offset-4 center">
